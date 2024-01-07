@@ -1,0 +1,7 @@
+{
+    "appName": "apparel",
+    "api": {
+        "port": "3007",
+        "version": "v1"
+    }
+}

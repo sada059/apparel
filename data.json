@@ -1,0 +1,71 @@
+[
+  {
+    "code": "APP110",
+    "name": "T-Shirt",
+    "sizes": [
+      {
+        "size": "S",
+        "quantity": 20,
+        "price": 10
+      },
+      {
+        "size": "M",
+        "quantity": 20,
+        "price": 201
+      },
+      {
+        "size": "L",
+        "quantity": 20,
+        "price": 200
+      }
+    ],
+    "color": "Blue",
+    "category": "Casual"
+  },
+  {
+    "code": "APP111",
+    "name": "T-Shirt",
+    "sizes": [
+      {
+        "size": "S",
+        "quantity": 30,
+        "price": 10
+      },
+      {
+        "size": "M",
+        "quantity": 25,
+        "price": 20
+      },
+      {
+        "size": "L",
+        "quantity": 20,
+        "price": 200
+      }
+    ],
+    "color": "Blue",
+    "category": "Casual"
+  },
+  {
+    "code": "APP113",
+    "name": "Hoodie",
+    "sizes": [
+      {
+        "size": "S",
+        "quantity": 30,
+        "price": 10
+      },
+      {
+        "size": "M",
+        "quantity": 25,
+        "price": 10
+      },
+      {
+        "size": "L",
+        "quantity": 10,
+        "price": 202
+      }
+    ],
+    "color": "Black",
+    "category": "Winter"
+  }
+]
