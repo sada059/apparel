@@ -16,9 +16,6 @@ async function initialize() {
 async function setupAndloadUserRoutes() {
     app.use('/apparel', apparel_1.default);
     app.use('/order', order_1.default);
-    // sync("./routes/v1/user/*.ts").forEach(function (file) {
-    //   app.use(`/${config.get("api.version")}`, require(path.resolve(file)));
-    // });
 }
 app.initialize = initialize;
 exports.default = app;

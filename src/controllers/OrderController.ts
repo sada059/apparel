@@ -19,7 +19,7 @@ class OrderController {
         );
       } else {
         res
-          .status(404)
+          .status(400)
           .json({
             message:
               "Requested apparel code is not found, order cannot be fulfilled",
@@ -28,7 +28,7 @@ class OrderController {
 
       if (!sizeInfo || sizeInfo.quantity < orderItem.quantity) {
         res
-          .status(500)
+          .status(400)
           .json({
             message:
               "stock is insufficient for given size, order cannot be fulfilled",
@@ -62,7 +62,7 @@ class OrderController {
         totalCost += price * quantity; // Calculate the total cost for the order item
       } else {
         res
-        .status(500)
+        .status(400)
         .json({
           message:
             "size not matching",

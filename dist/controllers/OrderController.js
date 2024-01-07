@@ -13,14 +13,14 @@ class OrderController {
             }
             else {
                 res
-                    .status(404)
+                    .status(400)
                     .json({
                     message: "Requested apparel code is not found, order cannot be fulfilled",
                 });
             }
             if (!sizeInfo || sizeInfo.quantity < orderItem.quantity) {
                 res
-                    .status(500)
+                    .status(400)
                     .json({
                     message: "stock is insufficient for given size, order cannot be fulfilled",
                 });
@@ -48,7 +48,7 @@ class OrderController {
             }
             else {
                 res
-                    .status(500)
+                    .status(400)
                     .json({
                     message: "size not matching",
                 });
